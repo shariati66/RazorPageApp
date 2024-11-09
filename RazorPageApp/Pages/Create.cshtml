@@ -1,0 +1,17 @@
+﻿@page
+@model RazorPageApp.Pages.CreateModel
+
+
+<form method="post" asp-page="Create">
+    <label asp-for="@Model.Operator.FirstName"></label>
+    <input asp-for="@Model.Operator.FirstName" />
+    <label asp-for="@Model.Operator.LastName"></label>
+    <input asp-for="@Model.Operator.LastName" />
+   
+    <input type="submit" value="Create User" asp-page="Create" />
+</form>
+
+
+
+
+
